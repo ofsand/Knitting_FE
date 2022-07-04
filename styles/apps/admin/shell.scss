@@ -1,0 +1,72 @@
+.admin{
+    &-wrapper{
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    &-main{
+        width: calc(100% - 175px);
+        margin-left: 175px;
+    }
+
+    &-sidebar{
+        position: fixed;
+        width: 175px;
+        background-color: black;
+        height: 100%;
+        color: white;
+        left:0;
+        top:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;
+        min-height:100%;
+        background: linear-gradient(0deg, rgb(13 255 0 / 30%), #3b82f670), url('../../../apps/admin/src/assets/images/knitting-image-1.jpg');
+        background-size:cover;
+
+
+        .admin-logo{
+            margin-bottom: 20px;
+        }
+        .links{
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            ul{
+                padding: 0px;
+                list-style-type: none;
+                li{
+                    padding: 15px 15px 15px 25px;
+                    position: relative;
+                    a{
+                        i{
+                            padding-right: 20px;
+                        }
+                    }
+                    
+                
+                    &:hover{
+                        background-color: rgba(0,0,0,0.5);
+                        cursor: pointer;
+                        &:after{
+                            content: "";
+                            height: 50px;
+                            width: 3px;
+                            background-color: white;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                    &:last-child{
+                        position: absolute;
+                        bottom: 35px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

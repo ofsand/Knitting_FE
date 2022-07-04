@@ -13,7 +13,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "knitting",
+            "prefix": "eshop",
             "style": "camelCase"
           }
         ],
@@ -21,10 +21,13 @@
           "error",
           {
             "type": "element",
-            "prefix": "knitting",
+            "prefix": "eshop",
             "style": "kebab-case"
           }
-        ]
+        ],
+        //turn off empty constructor Error
+        "no-empty-function": "off",
+        "@typescript-eslint/no-empty-function": "off"
       }
     },
     {

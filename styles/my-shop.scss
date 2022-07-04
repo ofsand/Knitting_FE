@@ -1,0 +1,24 @@
+.color-red{
+    color: red;
+}
+//Based
+@import './base/colors.scss';
+@import './base/configuration.scss';
+@import './base/fonts.scss';
+
+//Libraries
+@import '~primeicons/primeicons.css';
+@import '~primeng/resources/themes/lara-light-blue/theme.css';
+@import '~primeng/resources/primeng.min.css';
+@import '~primeflex/primeflex.css';
+
+//Pages
+@import './../styles/apps/shop/pages/home-page.scss';
+@import './../styles/apps/shop/pages/product-list.scss';
+
+//Shared
+@import './../styles/apps/shop/shared/footer.scss';
+@import './../styles/apps/shop/shared/header.scss';
+
+//Libs
+@import './../styles/libs/ui/ui.scss';
