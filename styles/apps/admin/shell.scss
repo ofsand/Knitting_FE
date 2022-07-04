@@ -16,7 +16,6 @@
         background-color: black;
         height: 100%;
         color: white;
-        left:0;
         top:0;
         display: flex;
         flex-direction: column;
@@ -48,7 +47,7 @@
                     
                 
                     &:hover{
-                        background-color: rgba(0,0,0,0.5);
+                        background-color: rgba(0,0,0,0.35);
                         cursor: pointer;
                         &:after{
                             content: "";
@@ -64,6 +63,11 @@
                         position: absolute;
                         bottom: 35px;
                         width: 100%;
+                    }
+                }
+                .logout-btn{
+                    &:hover{
+                        background-color: rgba(0,0,0,0.2);
                     }
                 }
             }
